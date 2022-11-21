@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20CEFC73292BA8BA0093580F /* New_Wave_Project_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CEFC72292BA8BA0093580F /* New_Wave_Project_3App.swift */; };
+		20CEFC75292BA8BA0093580F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CEFC74292BA8BA0093580F /* ContentView.swift */; };
+		20CEFC77292BA8BD0093580F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CEFC76292BA8BD0093580F /* Assets.xcassets */; };
+		20CEFC7A292BA8BD0093580F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CEFC79292BA8BD0093580F /* Preview Assets.xcassets */; };
+		20CEFC84292BA8BD0093580F /* New_Wave_Project_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CEFC83292BA8BD0093580F /* New_Wave_Project_3Tests.swift */; };
+		20CEFC8E292BA8BD0093580F /* New_Wave_Project_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CEFC8D292BA8BD0093580F /* New_Wave_Project_3UITests.swift */; };
+		20CEFC90292BA8BD0093580F /* New_Wave_Project_3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CEFC8F292BA8BD0093580F /* New_Wave_Project_3UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20CEFC80292BA8BD0093580F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20CEFC67292BA8BA0093580F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20CEFC6E292BA8BA0093580F;
+			remoteInfo = "New Wave Project 3";
+		};
+		20CEFC8A292BA8BD0093580F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20CEFC67292BA8BA0093580F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20CEFC6E292BA8BA0093580F;
+			remoteInfo = "New Wave Project 3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20CEFC6F292BA8BA0093580F /* New Wave Project 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New Wave Project 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20CEFC72292BA8BA0093580F /* New_Wave_Project_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Wave_Project_3App.swift; sourceTree = "<group>"; };
+		20CEFC74292BA8BA0093580F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		20CEFC76292BA8BD0093580F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20CEFC79292BA8BD0093580F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20CEFC7F292BA8BD0093580F /* New Wave Project 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New Wave Project 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20CEFC83292BA8BD0093580F /* New_Wave_Project_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Wave_Project_3Tests.swift; sourceTree = "<group>"; };
+		20CEFC89292BA8BD0093580F /* New Wave Project 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New Wave Project 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20CEFC8D292BA8BD0093580F /* New_Wave_Project_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Wave_Project_3UITests.swift; sourceTree = "<group>"; };
+		20CEFC8F292BA8BD0093580F /* New_Wave_Project_3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Wave_Project_3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20CEFC6C292BA8BA0093580F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20CEFC7C292BA8BD0093580F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20CEFC86292BA8BD0093580F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20CEFC66292BA8BA0093580F = {
+			isa = PBXGroup;
+			children = (
+				20CEFC71292BA8BA0093580F /* New Wave Project 3 */,
+				20CEFC82292BA8BD0093580F /* New Wave Project 3Tests */,
+				20CEFC8C292BA8BD0093580F /* New Wave Project 3UITests */,
+				20CEFC70292BA8BA0093580F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20CEFC70292BA8BA0093580F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20CEFC6F292BA8BA0093580F /* New Wave Project 3.app */,
+				20CEFC7F292BA8BD0093580F /* New Wave Project 3Tests.xctest */,
+				20CEFC89292BA8BD0093580F /* New Wave Project 3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20CEFC71292BA8BA0093580F /* New Wave Project 3 */ = {
+			isa = PBXGroup;
+			children = (
+				20CEFC72292BA8BA0093580F /* New_Wave_Project_3App.swift */,
+				20CEFC74292BA8BA0093580F /* ContentView.swift */,
+				20CEFC76292BA8BD0093580F /* Assets.xcassets */,
+				20CEFC78292BA8BD0093580F /* Preview Content */,
+			);
+			path = "New Wave Project 3";
+			sourceTree = "<group>";
+		};
+		20CEFC78292BA8BD0093580F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				20CEFC79292BA8BD0093580F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20CEFC82292BA8BD0093580F /* New Wave Project 3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				20CEFC83292BA8BD0093580F /* New_Wave_Project_3Tests.swift */,
+			);
+			path = "New Wave Project 3Tests";
+			sourceTree = "<group>";
+		};
+		20CEFC8C292BA8BD0093580F /* New Wave Project 3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				20CEFC8D292BA8BD0093580F /* New_Wave_Project_3UITests.swift */,
+				20CEFC8F292BA8BD0093580F /* New_Wave_Project_3UITestsLaunchTests.swift */,
+			);
+			path = "New Wave Project 3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20CEFC6E292BA8BA0093580F /* New Wave Project 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20CEFC93292BA8BD0093580F /* Build configuration list for PBXNativeTarget "New Wave Project 3" */;
+			buildPhases = (
+				20CEFC6B292BA8BA0093580F /* Sources */,
+				20CEFC6C292BA8BA0093580F /* Frameworks */,
+				20CEFC6D292BA8BA0093580F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "New Wave Project 3";
+			productName = "New Wave Project 3";
+			productReference = 20CEFC6F292BA8BA0093580F /* New Wave Project 3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20CEFC7E292BA8BD0093580F /* New Wave Project 3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20CEFC96292BA8BD0093580F /* Build configuration list for PBXNativeTarget "New Wave Project 3Tests" */;
+			buildPhases = (
+				20CEFC7B292BA8BD0093580F /* Sources */,
+				20CEFC7C292BA8BD0093580F /* Frameworks */,
+				20CEFC7D292BA8BD0093580F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20CEFC81292BA8BD0093580F /* PBXTargetDependency */,
+			);
+			name = "New Wave Project 3Tests";
+			productName = "New Wave Project 3Tests";
+			productReference = 20CEFC7F292BA8BD0093580F /* New Wave Project 3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20CEFC88292BA8BD0093580F /* New Wave Project 3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20CEFC99292BA8BD0093580F /* Build configuration list for PBXNativeTarget "New Wave Project 3UITests" */;
+			buildPhases = (
+				20CEFC85292BA8BD0093580F /* Sources */,
+				20CEFC86292BA8BD0093580F /* Frameworks */,
+				20CEFC87292BA8BD0093580F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20CEFC8B292BA8BD0093580F /* PBXTargetDependency */,
+			);
+			name = "New Wave Project 3UITests";
+			productName = "New Wave Project 3UITests";
+			productReference = 20CEFC89292BA8BD0093580F /* New Wave Project 3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20CEFC67292BA8BA0093580F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					20CEFC6E292BA8BA0093580F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					20CEFC7E292BA8BD0093580F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 20CEFC6E292BA8BA0093580F;
+					};
+					20CEFC88292BA8BD0093580F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 20CEFC6E292BA8BA0093580F;
+					};
+				};
+			};
+			buildConfigurationList = 20CEFC6A292BA8BA0093580F /* Build configuration list for PBXProject "New Wave Project 3" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20CEFC66292BA8BA0093580F;
+			productRefGroup = 20CEFC70292BA8BA0093580F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20CEFC6E292BA8BA0093580F /* New Wave Project 3 */,
+				20CEFC7E292BA8BD0093580F /* New Wave Project 3Tests */,
+				20CEFC88292BA8BD0093580F /* New Wave Project 3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20CEFC6D292BA8BA0093580F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CEFC7A292BA8BD0093580F /* Preview Assets.xcassets in Resources */,
+				20CEFC77292BA8BD0093580F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20CEFC7D292BA8BD0093580F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20CEFC87292BA8BD0093580F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20CEFC6B292BA8BA0093580F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CEFC75292BA8BA0093580F /* ContentView.swift in Sources */,
+				20CEFC73292BA8BA0093580F /* New_Wave_Project_3App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20CEFC7B292BA8BD0093580F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CEFC84292BA8BD0093580F /* New_Wave_Project_3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20CEFC85292BA8BD0093580F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CEFC90292BA8BD0093580F /* New_Wave_Project_3UITestsLaunchTests.swift in Sources */,
+				20CEFC8E292BA8BD0093580F /* New_Wave_Project_3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20CEFC81292BA8BD0093580F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20CEFC6E292BA8BA0093580F /* New Wave Project 3 */;
+			targetProxy = 20CEFC80292BA8BD0093580F /* PBXContainerItemProxy */;
+		};
+		20CEFC8B292BA8BD0093580F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20CEFC6E292BA8BA0093580F /* New Wave Project 3 */;
+			targetProxy = 20CEFC8A292BA8BD0093580F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20CEFC91292BA8BD0093580F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20CEFC92292BA8BD0093580F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20CEFC94292BA8BD0093580F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"New Wave Project 3/Preview Content\"";
+				DEVELOPMENT_TEAM = 9YXJSN2V4D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SO2.New-Wave-Project-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20CEFC95292BA8BD0093580F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"New Wave Project 3/Preview Content\"";
+				DEVELOPMENT_TEAM = 9YXJSN2V4D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SO2.New-Wave-Project-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20CEFC97292BA8BD0093580F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YXJSN2V4D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SO2.New-Wave-Project-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/New Wave Project 3.app/New Wave Project 3";
+			};
+			name = Debug;
+		};
+		20CEFC98292BA8BD0093580F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YXJSN2V4D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SO2.New-Wave-Project-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/New Wave Project 3.app/New Wave Project 3";
+			};
+			name = Release;
+		};
+		20CEFC9A292BA8BD0093580F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YXJSN2V4D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SO2.New-Wave-Project-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "New Wave Project 3";
+			};
+			name = Debug;
+		};
+		20CEFC9B292BA8BD0093580F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YXJSN2V4D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SO2.New-Wave-Project-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "New Wave Project 3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20CEFC6A292BA8BA0093580F /* Build configuration list for PBXProject "New Wave Project 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20CEFC91292BA8BD0093580F /* Debug */,
+				20CEFC92292BA8BD0093580F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20CEFC93292BA8BD0093580F /* Build configuration list for PBXNativeTarget "New Wave Project 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20CEFC94292BA8BD0093580F /* Debug */,
+				20CEFC95292BA8BD0093580F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20CEFC96292BA8BD0093580F /* Build configuration list for PBXNativeTarget "New Wave Project 3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20CEFC97292BA8BD0093580F /* Debug */,
+				20CEFC98292BA8BD0093580F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20CEFC99292BA8BD0093580F /* Build configuration list for PBXNativeTarget "New Wave Project 3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20CEFC9A292BA8BD0093580F /* Debug */,
+				20CEFC9B292BA8BD0093580F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20CEFC67292BA8BA0093580F /* Project object */;
+}
