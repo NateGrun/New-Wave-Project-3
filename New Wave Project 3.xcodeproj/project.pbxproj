@@ -15,6 +15,7 @@
 		20CEFC8E292BA8BD0093580F /* New_Wave_Project_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CEFC8D292BA8BD0093580F /* New_Wave_Project_3UITests.swift */; };
 		20CEFC90292BA8BD0093580F /* New_Wave_Project_3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CEFC8F292BA8BD0093580F /* New_Wave_Project_3UITestsLaunchTests.swift */; };
 		20CEFC9D292BAA9B0093580F /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CEFC9C292BAA9B0093580F /* Product.swift */; };
+		20CEFCA1292BB26E0093580F /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CEFCA0292BB26E0093580F /* ProductList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		20CEFC8D292BA8BD0093580F /* New_Wave_Project_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Wave_Project_3UITests.swift; sourceTree = "<group>"; };
 		20CEFC8F292BA8BD0093580F /* New_Wave_Project_3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Wave_Project_3UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		20CEFC9C292BAA9B0093580F /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		20CEFCA0292BB26E0093580F /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				20CEFC9C292BAA9B0093580F /* Product.swift */,
+				20CEFCA0292BB26E0093580F /* ProductList.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20CEFC75292BA8BA0093580F /* ContentView.swift in Sources */,
+				20CEFCA1292BB26E0093580F /* ProductList.swift in Sources */,
 				20CEFC73292BA8BA0093580F /* New_Wave_Project_3App.swift in Sources */,
 				20CEFC9D292BAA9B0093580F /* Product.swift in Sources */,
 			);
