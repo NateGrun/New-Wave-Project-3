@@ -14,6 +14,7 @@
 		20CEFC84292BA8BD0093580F /* New_Wave_Project_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CEFC83292BA8BD0093580F /* New_Wave_Project_3Tests.swift */; };
 		20CEFC8E292BA8BD0093580F /* New_Wave_Project_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CEFC8D292BA8BD0093580F /* New_Wave_Project_3UITests.swift */; };
 		20CEFC90292BA8BD0093580F /* New_Wave_Project_3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CEFC8F292BA8BD0093580F /* New_Wave_Project_3UITestsLaunchTests.swift */; };
+		20CEFC9D292BAA9B0093580F /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CEFC9C292BAA9B0093580F /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		20CEFC89292BA8BD0093580F /* New Wave Project 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New Wave Project 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20CEFC8D292BA8BD0093580F /* New_Wave_Project_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Wave_Project_3UITests.swift; sourceTree = "<group>"; };
 		20CEFC8F292BA8BD0093580F /* New_Wave_Project_3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_Wave_Project_3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		20CEFC9C292BAA9B0093580F /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +96,10 @@
 		20CEFC71292BA8BA0093580F /* New Wave Project 3 */ = {
 			isa = PBXGroup;
 			children = (
-				20CEFC72292BA8BA0093580F /* New_Wave_Project_3App.swift */,
-				20CEFC74292BA8BA0093580F /* ContentView.swift */,
 				20CEFC76292BA8BD0093580F /* Assets.xcassets */,
+				20CEFC9E292BAC6A0093580F /* Model */,
+				20CEFC9F292BAC910093580F /* Views */,
+				20CEFC72292BA8BA0093580F /* New_Wave_Project_3App.swift */,
 				20CEFC78292BA8BD0093580F /* Preview Content */,
 			);
 			path = "New Wave Project 3";
@@ -125,6 +128,22 @@
 				20CEFC8F292BA8BD0093580F /* New_Wave_Project_3UITestsLaunchTests.swift */,
 			);
 			path = "New Wave Project 3UITests";
+			sourceTree = "<group>";
+		};
+		20CEFC9E292BAC6A0093580F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20CEFC9C292BAA9B0093580F /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20CEFC9F292BAC910093580F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				20CEFC74292BA8BA0093580F /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +278,7 @@
 			files = (
 				20CEFC75292BA8BA0093580F /* ContentView.swift in Sources */,
 				20CEFC73292BA8BA0093580F /* New_Wave_Project_3App.swift in Sources */,
+				20CEFC9D292BAA9B0093580F /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
